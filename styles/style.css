@@ -1,0 +1,365 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* Cabin: */
+/* font-family: 'Cabin', sans-serif; */
+
+/* GreatVibes: */
+/* font-family: 'Great Vibes', cursive; */
+
+/* General Styles */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    filter: grayscale(100%);
+}
+
+.wrapper{
+    max-width: 1600px;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+ul{
+    list-style: none;
+}
+
+.great-vibes{
+    font-family: 'Great Vibes', cursive;
+}
+
+.cabin{
+    font-family: 'Cabin', sans-serif;
+}
+/*  Header Styles*/
+header{
+    background-image: url(../assets/asset-1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+    /* Nav */
+.header-nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 4.2rem;
+    font-weight: normal;
+    margin: auto 0;
+}
+
+.header-nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+}
+
+.header-nav ul li a{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #232323;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2% 20px;
+}
+
+.header-nav ul li a:visited{
+    color: #232323;
+}
+
+    /* Main Header */
+#main-header{
+    margin: 10% auto 0 auto;
+    text-align: center;
+    width: 30%;
+}
+
+h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 #main-tasty{
+    font-size: 200px;
+    /* font-size: 5rem; */
+    font-weight: normal;
+    text-transform: capitalize;
+}
+    /* Social Media Icons */
+aside{
+    position: relative;
+    width: 3%;
+    margin-left: 95%;
+}
+
+.icon{
+    width: 100%;
+    padding-top: 100%;
+}
+
+/* About */
+.about{
+    background-color: #EAEDF4;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.about{
+    padding: 5% 10%;
+}
+
+#about-tasty{
+    font-size: 4.2rem;
+    font-weight: normal;
+}
+
+.about div p{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.about-button{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.about-button p a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #FDC800;
+    text-transform: uppercase;
+    color: #232323;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Menu */
+#menu{
+    background-color: #232323;
+    color: #F8F8F8;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+#menu div ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#menu h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F8F8F8;
+}
+
+/* Gallery */
+.gallery{
+    margin: 0 auto;
+    margin: 2%;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+.image-container{
+    width: calc((100% / 3) - 4%);
+}
+
+.gallery img{
+    width: calc(100% - 4%);
+}
+
+/* Meet the Cook */
+.meet-the-cook div{
+    display: flex;
+    flex-direction: row;
+}
+
+.cook-profile-pic{
+    flex-basis: 35%;
+}
+
+.cook-profile-pic img{
+    width: 100%;
+    margin: auto;
+}
+
+.cook-text{
+    flex-basis: 65%;
+    margin: auto;
+}
+
+.meet-the-cook .flex-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 2%;
+}
+
+.cook-text h2{
+    font-size: 4.2rem;
+    font-weight: normal;
+}
+
+.cook-text p{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.cook-button{
+    padding: 10px 20px;
+    background-color: #FDC800;
+    border: none;
+    width: 25%;
+}
+
+.cook-button a{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #232323;
+} 
+
+/* Footer Nav */
+#footer-nav{
+    background-color: #232323;
+}
+
+.footer-nav a,
+.footer-nav a:visited,
+.footer-nav h4,
+.footer-nav p{
+    color: #F8F8F8;
+    text-decoration: none;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+}
+
+.footer-nav h4{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-nav a,
+.footer-nav .right-half p{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.left-half{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.right-half{
+    flex-basis: 50%;
+    padding-top: 0.5%;
+}
+
+    /* input */
+.email-sub input{
+    border: none;
+    padding: 1% 2% 1% 10%;
+    text-align: left;
+}
+
+.email-sub button{
+    padding: 1% 2%;
+    background-color: #FDC800;
+    border: none;
+    color: #232323;
+}
+/* Footer */
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: grey;
+    font-size: 1.8rem;
+    font-weight: normal;
+    text-align: center;
+    margin: auto 0;
+    padding: 3% 0;
+}
+
+/* Mobile Version */
+@media (max-width: 480px){
+    /* header */
+    header{
+        height: 60vh;
+    }
+
+    h1 #main-tasty{
+        font-size: 100px;
+        align-items: center;
+    }
+
+    /* About */
+    .about-buttton{
+        width: 100%;
+    }
+
+    /* Menu */
+    #menu div ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Gallery */
+    .gallery{
+        margin: auto 0;
+    }
+
+    .image-container{
+        width: 33%;
+        margin-bottom: 2%;
+    }
+    /* Meet the cook */
+    .cook-text h2,
+    .meet-the-cook p{
+        text-align: center;
+    }
+
+    .meet-the-cook div{
+        flex-direction: column;
+    }
+
+    .cook-button{
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    /* Footer Nav */
+    .footer-nav{
+        flex-direction: column;
+    }
+}
